@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif}
+
+a{transition:color .15s ease, transform .15s ease}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+}
+
+a {
+  transition: color 0.15s ease, transform 0.15s ease;
+}

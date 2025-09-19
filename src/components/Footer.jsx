@@ -1,0 +1,1 @@
+export default ()=> <footer className="py-6 text-center text-sm text-white bg-slate-800">© Faisal Imam 2025</footer>
