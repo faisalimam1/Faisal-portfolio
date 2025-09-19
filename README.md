@@ -1,2 +1,4 @@
 # Faisal Imam Portfolio
-Polished, colorful portfolio built with Next.js and Tailwind CSS.
+Portfolio built with Next.js and Tailwind CSS.
+#Live link
+https://faisal-portfolio-roan.vercel.app/
