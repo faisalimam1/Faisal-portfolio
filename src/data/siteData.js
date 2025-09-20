@@ -76,8 +76,8 @@ export const PROJECTS = [
     tech: ['Python', 'Flask', 'Caffe'],
     repo: 'https://github.com/faisalimam1/Projects/tree/main/Image%20Colorisation',
     screenshots: [
-      '/assets/imagecolor1.jpeg',
-      '/assets/imagecolor2.jpeg'
+      '/assets/imagecolor1.jpg',
+      '/assets/imagecolor2.jpg'
     ]
   }
 ]
