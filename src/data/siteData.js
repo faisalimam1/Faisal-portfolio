@@ -12,8 +12,6 @@ export const HERO = {
     'Languages': ['C', 'C++', 'Python', 'Java', 'SQL', 'HTML', 'CSS', 'JavaScript'],
     'Frameworks & Libraries': ['Flask', 'React', 'Node.js (basic)', 'Tailwind CSS'],
     'Databases & Tools': [
-      'PostgreSQL',
-      'Redis',
       'Docker (familiar)',
       'Git',
       'GitHub',
