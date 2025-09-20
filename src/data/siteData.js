@@ -73,7 +73,7 @@ export const PROJECTS = [
   {
     title: 'Image Colorisation',
     summary: 'Converts grayscale images to color using a Caffe-based model.',
-    tech: ['Python', 'Flask', 'Caffe'],
+    tech: ['Python', 'Flask', 'Caffe Model', 'CNN', 'OpenCV'],
     repo: 'https://github.com/faisalimam1/Projects/tree/main/Image%20Colorisation',
     screenshots: [
       '/assets/imagecolor1.jpg',
