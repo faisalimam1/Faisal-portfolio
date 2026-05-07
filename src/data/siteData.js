@@ -9,27 +9,14 @@ export const HERO = {
   linkedin: 'https://www.linkedin.com/in/faisalimam19',
   github: 'https://github.com/faisalimam1',
   skills: {
-    'Languages': ['C', 'C++', 'Python', 'Java', 'SQL', 'HTML', 'CSS', 'JavaScript'],
-    'Frameworks & Libraries': ['Flask', 'React', 'Node.js (basic)', 'Tailwind CSS'],
-    'Databases & Tools': [
-      'Docker (familiar)',
-      'Git',
-      'GitHub',
-      'VS Code',
-      'Excel',
-      'Google Sheets',
-      'NLTK',
-      'pandas',
-      'scikit-learn'
-    ],
-    'Concepts': [
-      'Full Stack Development',
-      'System Programming',
-      'DevOps basics (CI/CD)',
-      'Performance and Optimization'
-    ],
-    'Soft Skills': ['Communication', 'Leadership', 'Time Management', 'Negotiation']
-  },
+  'Languages': ['C++', 'Python', 'Java(Basics)', 'SQL', 'HTML', 'CSS', 'JS'],
+  'AI / ML & DL': ['PyTorch', 'scikit-learn', 'NLTK', 'NumPy', 'pandas', 'Matplotlib', 'OpenCV', 'Whisper', 'HuggingFace'],
+  'GenAI & Agents': ['OpenAI API', 'Anthropic API', 'CrewAI', 'Prompt Engineering', 'RAG', 'Multi-Agent Systems'],
+  'Frameworks & Libraries': ['Flask', 'React', 'Tailwind CSS'],
+  'Databases & Tools': ['PostgreSQL', 'Redis', 'Docker(Basics)', 'Git', 'GitHub', 'Jupyter', 'Kaggle', 'VS Code', 'GCP (basics)'],
+  'Concepts': ['Full Stack Development', 'Model Fine-tuning', 'System Programming', 'DevOps basics (CI/CD)'],
+  'Soft Skills': ['Communication', 'Leadership', 'Time Management', 'Negotiation']
+}
   education: [
     {
       degree: 'B.E. Computer Science and Engineering',
