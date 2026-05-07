@@ -1,6 +1,6 @@
 export const HERO = {
   name: 'FAISAL IMAM',
-  tagline: 'Computer Science Engineer • Aspiring AI Engineer',
+  tagline: 'CS Engineer • Building Intelligent Systems with AI/ML',
   photo: '/assets/faisal_dp.jpg',
   long: `I am Faisal Imam, a Computer Science Engineer focused on AI, Machine Learning, and applied Deep Learning. I enjoy building intelligent systems and full stack applications that solve real problems. I have led projects from concept to deployment. My notable roles include as architect of my project "AI Powered Mental Health Prediction and Personalised Assistance Sysytem" which was showcased at IBM Global CSR Summit South Asia 2025 and won Best Project Award at Intuite 2026. I have led teams as a Finance Head for Cambrian Open House 2025 and Co-organizer for TEDx 2026. Outside of work I play badminton and train at the gym. I am detail oriented, a clear communicator and driven by building solutions powered by intelligent technology.`,
   location: 'Bangalore, India',
