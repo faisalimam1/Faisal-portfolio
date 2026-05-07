@@ -1,6 +1,6 @@
 export const HERO = {
   name: 'FAISAL IMAM',
-  tagline: 'Computer Science Engineer • Full Stack Developer',
+  tagline: 'Computer Science Engineer • Aspiring AI Engineer',
   photo: '/assets/faisal_dp.jpg',
   long: `I am Faisal Imam, a Computer Science Engineer who focuses on system programming, full stack development and applied AI. I enjoy designing backends that scale and frontends that are intuitive. I have led teams and projects from concept to deployment. My notable roles include Finance Head for Cambrian Open House 2025 and Co-organizer for TEDx 2025. Outside of work I play badminton and train at the gym. I am detail oriented, a clear communicator and driven by solving real world problems.`,
   location: 'Bangalore, India',
