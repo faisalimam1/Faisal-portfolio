@@ -16,7 +16,7 @@ export const HERO = {
   'Databases & Tools': ['PostgreSQL', 'Redis', 'Docker(Basics)', 'Git', 'GitHub', 'Jupyter', 'Kaggle', 'VS Code', 'GCP (basics)'],
   'Concepts': ['Full Stack Development', 'Model Fine-tuning', 'System Programming', 'DevOps basics (CI/CD)'],
   'Soft Skills': ['Communication', 'Leadership', 'Time Management', 'Negotiation']
-}
+}, 
   education: [
     {
       degree: 'B.E. Computer Science and Engineering',
