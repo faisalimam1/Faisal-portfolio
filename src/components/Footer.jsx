@@ -27,7 +27,7 @@ export default function Footer() {
           </a>
         </div>
         <p className="text-sm text-slate-400">
-          © {year} Faisal Imam · Built with Next.js & Tailwind CSS
+          © {year} Faisal Imam
         </p>
       </div>
     </footer>
