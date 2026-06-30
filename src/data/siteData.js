@@ -19,7 +19,7 @@ Outside of work I play badminton and train at the gym. I am detail oriented, a c
   'AI / ML & DL': ['PyTorch', 'scikit-learn', 'Transformers', 'BERT', 'ResNet', 'NLTK', 'NumPy', 'pandas', 'Matplotlib', 'OpenCV', 'Whisper', 'Librosa', 'DeepFace', 'MediaPipe', 'HuggingFace'],
   'GenAI & Agents': ['OpenAI API', 'Anthropic API', 'LangChain', 'LCEL', 'RAG', 'ChromaDB', 'Groq', 'CrewAI', 'Prompt Engineering', 'Multi-Agent Systems'],
   'Frameworks & Libraries': ['Flask', 'FastAPI', 'Streamlit', 'Gradio', 'React', 'Tailwind CSS'],
-  'Databases & Tools': ['PostgreSQL', 'Redis', 'Docker', 'Render', 'Vercel', 'Git', 'GitHub', 'Jupyter', 'Kaggle', 'VS Code', 'GCP (basics)'],
+  'Databases & Tools': ['Docker', 'Render', 'Vercel', 'Git', 'GitHub', 'Jupyter', 'Kaggle', 'VS Code', 'GCP (basics)'],
   'Concepts': ['Full Stack Development', 'Model Fine-tuning', 'System Programming', 'DevOps basics (CI/CD)'],
   'Soft Skills': ['Communication', 'Leadership', 'Time Management', 'Negotiation']
 },
