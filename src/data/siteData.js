@@ -12,6 +12,8 @@ Outside of work I play badminton and train at the gym. I am detail oriented, a c
   email: 'imamfaisal36@gmail.com',
   linkedin: 'https://www.linkedin.com/in/faisalimam19',
   github: 'https://github.com/faisalimam1',
+  huggingface: 'https://huggingface.co/faisalimam19',
+  kaggle: 'https://www.kaggle.com/faisalimam19',
   skills: {
   'Languages': ['Python', 'C++', 'SQL', 'HTML', 'CSS', 'JS (Basics)'],
   'AI / ML & DL': ['PyTorch', 'scikit-learn', 'Transformers', 'BERT', 'ResNet', 'NLTK', 'NumPy', 'pandas', 'Matplotlib', 'OpenCV', 'Whisper', 'Librosa', 'DeepFace', 'MediaPipe', 'HuggingFace'],
