@@ -78,11 +78,7 @@ export const PROJECTS = [
       'Reads text, voice and video to assess well-being via a 7-tier detection pipeline. 1st Prize @ INTUITE 2026 · showcased at IBM Global CSR Summit South Asia 2025 · paper accepted for IEEE Xplore.',
     tech: ['BERT', 'Whisper', 'Librosa', 'OpenCV', 'DeepFace', 'MediaPipe', 'Flask', 'Docker'],
     repo: 'https://github.com/faisalimam1/MindTrackAI',
-    screenshots: [
-      '/assets/Screenshot_2025-09-19_111054.png',
-      '/assets/Screenshot_2025-09-19_111116.png',
-      '/assets/Screenshot_2025-09-19_111130.png'
-    ]
+    screenshots: []
   },
   {
     title: 'NLP Multi-Tool App',
