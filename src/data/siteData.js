@@ -1,8 +1,12 @@
 export const HERO = {
   name: 'FAISAL IMAM',
-  tagline: 'CS Engineer • Building Intelligent Systems with AI/ML',
+  tagline: 'AI/ML Engineer • Building & shipping RAG systems, fine-tuned NLP & multimodal AI',
   photo: '/assets/faisal_dp.jpg',
-  long: `I am Faisal Imam, a Computer Science Engineer focused on AI, Machine Learning, and applied Deep Learning. I enjoy building intelligent systems and full stack applications that solve real problems. I have led projects from concept to deployment. My notable roles include as architect of my project "AI Powered Mental Health Prediction and Personalised Assistance Sysytem" which was showcased at IBM Global CSR Summit South Asia 2025 and won Best Project Award at Intuite 2026. I have led teams as a Finance Head for Cambrian Open House 2025 and Co-organizer for TEDx 2026. Outside of work I play badminton and train at the gym. I am detail oriented, a clear communicator and driven by building solutions powered by intelligent technology.`,
+  long: `I am Faisal Imam, an AI/ML engineer and final-year Computer Science student who builds and ships intelligent systems end to end — from model to API to deployed app. My work spans RAG systems, fine-tuned transformers, computer vision, and multimodal AI, and most of it is live and public.
+
+I am the lead architect of MindTrack AI, a multimodal (text/voice/video) mental-health platform that won 1st Prize at INTUITE 2026, was showcased at the IBM Global CSR Summit South Asia 2025, and has a research paper accepted for IEEE Xplore. I have also led teams as Finance Head for Cambrian Open House 2025 and Co-organizer for TEDx 2026.
+
+Outside of work I play badminton and train at the gym. I am detail oriented, a clear communicator, and driven by building real solutions powered by intelligent technology.`,
   location: 'Bangalore, India',
   phone: '+91 9608953402',
   email: 'imamfaisal36@gmail.com',
@@ -10,18 +14,18 @@ export const HERO = {
   github: 'https://github.com/faisalimam1',
   skills: {
   'Languages': ['C++', 'Python', 'Java(Basics)', 'SQL', 'HTML', 'CSS', 'JS'],
-  'AI / ML & DL': ['PyTorch', 'scikit-learn', 'NLTK', 'NumPy', 'pandas', 'Matplotlib', 'OpenCV', 'Whisper', 'HuggingFace'],
-  'GenAI & Agents': ['OpenAI API', 'Anthropic API', 'CrewAI', 'Prompt Engineering', 'RAG', 'Multi-Agent Systems'],
-  'Frameworks & Libraries': ['Flask', 'React', 'Tailwind CSS'],
-  'Databases & Tools': ['PostgreSQL', 'Redis', 'Docker(Basics)', 'Git', 'GitHub', 'Jupyter', 'Kaggle', 'VS Code', 'GCP (basics)'],
+  'AI / ML & DL': ['PyTorch', 'scikit-learn', 'Transformers', 'BERT', 'ResNet', 'NLTK', 'NumPy', 'pandas', 'Matplotlib', 'OpenCV', 'Whisper', 'Librosa', 'DeepFace', 'MediaPipe', 'HuggingFace'],
+  'GenAI & Agents': ['OpenAI API', 'Anthropic API', 'LangChain', 'LCEL', 'RAG', 'ChromaDB', 'Groq', 'CrewAI', 'Prompt Engineering', 'Multi-Agent Systems'],
+  'Frameworks & Libraries': ['Flask', 'FastAPI', 'Streamlit', 'Gradio', 'React', 'Tailwind CSS'],
+  'Databases & Tools': ['PostgreSQL', 'Redis', 'Docker', 'Render', 'Vercel', 'Git', 'GitHub', 'Jupyter', 'Kaggle', 'VS Code', 'GCP (basics)'],
   'Concepts': ['Full Stack Development', 'Model Fine-tuning', 'System Programming', 'DevOps basics (CI/CD)'],
   'Soft Skills': ['Communication', 'Leadership', 'Time Management', 'Negotiation']
-}, 
+},
   education: [
     {
       degree: 'B.E. Computer Science and Engineering',
       institution: 'Cambridge Institute Of Technology (VTU)',
-      cgpa: '8.8'
+      cgpa: '8.9'
     },
     { degree: 'Elementary Education', institution: 'DAV Public School' }
   ],
@@ -46,10 +50,28 @@ export const HERO = {
 
 export const PROJECTS = [
   {
-    title: 'MindTrackAI — AI Powered Mental Health Prediction & Assistance',
+    title: 'Indian Legal RAG Chatbot',
     summary:
-      'Predicts mental health state and offers personalized coping strategies and referrals.',
-    tech: ['Python', 'Flask', 'NLTK', 'scikit-learn', 'PostgreSQL', 'Redis'],
+      'RAG chatbot over the Bharatiya Nyaya Sanhita (BNS) 2023 — grounded answers with exact section and page citations.',
+    tech: ['LangChain LCEL', 'ChromaDB', 'BM25 Hybrid (RRF)', 'Groq Llama 3.3 70B', 'Gradio'],
+    repo: 'https://github.com/faisalimam1/indian-legal-rag-chatbot',
+    demo: 'https://huggingface.co/spaces/faisalimam19/indian-legal-rag-chatbot',
+    screenshots: []
+  },
+  {
+    title: 'Indian Legal RAG API',
+    summary:
+      'Production REST API serving the legal RAG pipeline — typed, documented, containerised and deployed.',
+    tech: ['FastAPI', 'Pydantic v2', 'Docker', 'Render'],
+    repo: 'https://github.com/faisalimam1/indian-legal-rag-api',
+    demo: 'https://indian-legal-rag-api-xe44.onrender.com/docs',
+    screenshots: []
+  },
+  {
+    title: 'MindTrack AI — Multimodal Mental-Health Platform',
+    summary:
+      'Reads text, voice and video to assess well-being via a 7-tier detection pipeline. 1st Prize @ INTUITE 2026 · showcased at IBM Global CSR Summit South Asia 2025 · paper accepted for IEEE Xplore.',
+    tech: ['BERT', 'Whisper', 'Librosa', 'OpenCV', 'DeepFace', 'MediaPipe', 'Flask', 'Docker'],
     repo: 'https://github.com/faisalimam1/MindTrackAI',
     screenshots: [
       '/assets/Screenshot_2025-09-19_111054.png',
@@ -58,14 +80,39 @@ export const PROJECTS = [
     ]
   },
   {
-    title: 'Image Colorisation',
-    summary: 'Converts grayscale images to color using a Caffe-based model.',
-    tech: ['Python', 'Flask', 'Caffe Model', 'CNN', 'OpenCV'],
-    repo: 'https://github.com/faisalimam1/Projects/tree/main/Image%20Colorisation',
-    screenshots: [
-      '/assets/imagecolor1.jpg',
-      '/assets/imagecolor2.jpg'
-    ]
+    title: 'NLP Multi-Tool App',
+    summary:
+      'Four NLP tasks in one app — sentiment, summarization, keywords and zero-shot — powered by a BERT model I fine-tuned myself (F1 0.921).',
+    tech: ['Fine-tuned BERT', 'HuggingFace', 'Streamlit', 'KeyBERT'],
+    repo: 'https://github.com/faisalimam1/nlp-multitool-app',
+    demo: 'https://nlp-multitool-app.streamlit.app',
+    screenshots: []
+  },
+  {
+    title: 'Plant Disease Classifier',
+    summary:
+      'Diagnoses 38 plant diseases from a single leaf photo and returns treatment advice. 99% test accuracy.',
+    tech: ['PyTorch', 'ResNet-18', 'Transfer Learning', 'Gradio'],
+    repo: 'https://github.com/faisalimam1/plant-disease-classifier',
+    demo: 'https://huggingface.co/spaces/faisalimam19/plant-disease-classifier',
+    screenshots: []
+  },
+  {
+    title: '30-Day AI Engineer Roadmap',
+    summary:
+      'My full AI engineering journey — 4 phases, 30 days, daily logs and real measured results, from deep-learning foundations to deployed RAG.',
+    tech: ['PyTorch', 'Transformers', 'RAG', 'Docker'],
+    repo: 'https://github.com/faisalimam1/DL-Learning-Roadmap',
+    screenshots: []
+  },
+  {
+    title: 'SMS Spam Classifier',
+    summary:
+      'Classifies SMS messages as spam or legitimate. F1 0.934 on a held-out test set.',
+    tech: ['scikit-learn', 'Naive Bayes', 'TF-IDF', 'Gradio'],
+    repo: 'https://github.com/faisalimam1/kaggle-ml-roadmap/tree/main/03_sms_spam',
+    demo: 'https://huggingface.co/spaces/faisalimam19/sms-spam-classifier',
+    screenshots: []
   }
 ]
 

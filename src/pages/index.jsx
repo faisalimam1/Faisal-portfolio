@@ -94,26 +94,41 @@ export default function Home({ theme, setTheme }) {
               >
                 <h3 className="font-semibold text-lg">{p.title}</h3>
                 <p className="text-sm mt-1 text-slate-600 dark:text-slate-300">{p.summary}</p>
-                <div className="flex gap-2 mt-2 overflow-x-auto">
-                  {p.screenshots.map((s, i) => (
-                    <Image
-                      key={i}
-                      src={s}
-                      alt={p.title + i}
-                      width={280}
-                      height={160}
-                      className="rounded"
-                    />
-                  ))}
-                </div>
+                {(p.screenshots || []).length > 0 && (
+                  <div className="flex gap-2 mt-2 overflow-x-auto">
+                    {p.screenshots.map((s, i) => (
+                      <Image
+                        key={i}
+                        src={s}
+                        alt={p.title + i}
+                        width={280}
+                        height={160}
+                        className="rounded"
+                      />
+                    ))}
+                  </div>
+                )}
                 <div className="text-sm mt-2">Tech: {p.tech.join(', ')}</div>
-                <a
-                  href={p.repo}
-                  target="_blank"
-                  className="mt-2 inline-block text-sm px-3 py-1 bg-emerald-500 hover:bg-emerald-600 text-white rounded"
-                >
-                  View repo
-                </a>
+                <div className="flex gap-2 mt-2">
+                  {p.demo && (
+                    <a
+                      href={p.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block text-sm px-3 py-1 bg-sky-500 hover:bg-sky-600 text-white rounded"
+                    >
+                      Live Demo
+                    </a>
+                  )}
+                  <a
+                    href={p.repo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block text-sm px-3 py-1 bg-emerald-500 hover:bg-emerald-600 text-white rounded"
+                  >
+                    View repo
+                  </a>
+                </div>
               </motion.div>
             ))}
           </div>
