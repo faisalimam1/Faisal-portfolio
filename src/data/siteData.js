@@ -31,6 +31,11 @@ Outside of work I play badminton and train at the gym. I am detail oriented, a c
   ],
   certifications: [
     {
+      title: 'Machine Learning Foundation Certification',
+      issuer: 'Infosys Springboard',
+      link: 'https://drive.google.com/file/d/1MlDK64Anax74fo6Dqfotqpacb1mIL2hK/view'
+    },
+    {
       title: 'Problem Solving Through Programming in C',
       issuer: 'NPTEL IIT Kharagpur',
       link: 'https://drive.google.com/file/d/1fuaW-JgiY8XKXcmGnarOgoYZg04RHd-o/view?usp=sharing'
