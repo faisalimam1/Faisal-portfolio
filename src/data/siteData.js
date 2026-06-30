@@ -13,7 +13,7 @@ Outside of work I play badminton and train at the gym. I am detail oriented, a c
   linkedin: 'https://www.linkedin.com/in/faisalimam19',
   github: 'https://github.com/faisalimam1',
   skills: {
-  'Languages': ['C++', 'Python', 'Java(Basics)', 'SQL', 'HTML', 'CSS', 'JS'],
+  'Languages': ['Python', 'C++', 'SQL', 'HTML', 'CSS', 'JS (Basics)'],
   'AI / ML & DL': ['PyTorch', 'scikit-learn', 'Transformers', 'BERT', 'ResNet', 'NLTK', 'NumPy', 'pandas', 'Matplotlib', 'OpenCV', 'Whisper', 'Librosa', 'DeepFace', 'MediaPipe', 'HuggingFace'],
   'GenAI & Agents': ['OpenAI API', 'Anthropic API', 'LangChain', 'LCEL', 'RAG', 'ChromaDB', 'Groq', 'CrewAI', 'Prompt Engineering', 'Multi-Agent Systems'],
   'Frameworks & Libraries': ['Flask', 'FastAPI', 'Streamlit', 'Gradio', 'React', 'Tailwind CSS'],
